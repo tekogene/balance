@@ -1,0 +1,25 @@
+{
+  "name": "balance-checking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-jest": "^27.4.6",
+    "jest": "27.4.7",
+    "parcel-bundler": "^1.6.1",
+    "ts-jest": "^27.1.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
